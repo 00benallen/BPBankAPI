@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BenjaminPinhornApiApplication {
+public class BPBankAPIApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BenjaminPinhornApiApplication.class, args);
+		SpringApplication.run(BPBankAPIApplication.class, args);
 	}
 }

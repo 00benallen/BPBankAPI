@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin
-public class BenPinhornRestController {
+public class AccountController {
 	
 	@GetMapping("/api/data")
 	public DataModel getData() {
