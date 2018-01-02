@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.bpinhorn</groupId>
-	<artifactId>BenjaminPinhornApi</artifactId>
+	<artifactId>BPBankAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>BenjaminPinhornApi</name>
-	<description>Backend Api for benjaminpinhorn.com</description>
+	<name>BPBankAPI</name>
+	<description>Backend Api for BPBank</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -52,6 +52,15 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
